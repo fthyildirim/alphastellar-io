@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',
+    sans-serif;
+}
+
+
+html,
+body {
+  min-height: 100%;
+}
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.theme-1 {
+  --header-bg-color: rgb(255, 229, 153);
+  --footer-bg-color: rgb(182, 215, 168);
+  --menu-item-bg-color: rgb(194, 123, 160);
+  --menu-item-active-bg-color: rgb(59, 3, 32);
+  --sidebar-bg-color: rgb(159, 197, 232);
+}
+.theme-2 {
+  --header-bg-color: rgb(97, 83, 42);
+  --footer-bg-color: rgb(110, 155, 91);
+  --menu-item-bg-color: rgb(141, 33, 89);
+  --menu-item-active-bg-color: rgb(59, 3, 32);
+  --sidebar-bg-color: rgb(14, 64, 110);
+}
+.theme-3 {
+  --header-bg-color: rgb(255, 229, 153);
+  --footer-bg-color: rgb(182, 215, 168);
+  --menu-item-bg-color: rgb(194, 123, 160);
+  --menu-item-active-bg-color: rgb(59, 3, 32);
+  --sidebar-bg-color: rgb(159, 197, 232);
+}

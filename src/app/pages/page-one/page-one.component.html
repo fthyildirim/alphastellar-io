@@ -1,0 +1,48 @@
+
+    <div class="content">
+      <div class="left">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item" [class.active]="selectedMenuItem.id === menuItem.id" *ngFor="let menuItem of menuItemList">
+              <a class="nav-link" (click)="changeTheme(menuItem)">MENU ITEM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="right">
+        <form #form="ngForm" (ngSubmit)="submitForm()">
+          <div class="title">Page One</div>
+          <div class="form-group">
+            <input required #title="ngModel" type="text" [(ngModel)]="model.title" name="title"
+              class="custom-input" placeholder="TEXT FORM FILED">
+            <div class="alert alert-danger" *ngIf="title.invalid && title.touched">
+              <p>gerekli alan</p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input required class="custom-input" [(ngModel)]="model.description" name="description"
+              #description="ngModel" placeholder="TEXT FORM FILED">
+            <div class="alert alert-danger" *ngIf="description.invalid && description.touched">
+              gerekli alan
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input required class="custom-input" [(ngModel)]="model.address" name="address" #address="ngModel"
+              placeholder="TEXT FORM FILED">
+            <div class="alert alert-danger" *ngIf="address.invalid && address.touched">
+              gerekli alan
+            </div>
+          </div>
+          <div class="button-display">
+            <button [disabled]="isResetDisable" type="reset" class="reset-btn">RESET BUTTON</button>
+            <button [disabled]="form.invalid" type="submit" class="submit-btn">SUBMIT BUTTON</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
