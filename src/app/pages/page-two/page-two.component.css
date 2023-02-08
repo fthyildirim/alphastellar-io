@@ -17,9 +17,15 @@
 }
 
 .nav-item {
-  background-color: #C27BA0;
+  background-color: var(--menu-item-bg-color);
+  color: #111111;
   border: 2px solid #000;
   padding: 4px 7px;
+}
+
+.nav-item.active {
+  color: #ffffff;
+  background-color: var(--menu-item-active-bg-color);
 }
 
 .title {
@@ -58,6 +64,7 @@
 .alert-danger {
   color: rgb(241, 75, 75);
 }
+
 .custom-input.ng-touched.ng-invalid {
   border-left: 5px solid #a94442;
 }

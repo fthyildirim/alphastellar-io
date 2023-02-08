@@ -3,7 +3,7 @@ header {
   height: 100px;
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 229, 153);
+  background-color: var(--header-bg-color);
   align-items: center;
 }
 
@@ -26,7 +26,7 @@ header {
 
 .sidebar {
   flex-basis: 200px;
-  background-color: #9FC5E8;
+  background-color: var(--sidebar-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +37,7 @@ header {
 
 footer {
   width: 100%;
-  background-color: #B6D7A8;
+  background-color: var(--footer-bg-color);
   display: flex;
   align-items: center;
   justify-content: center;

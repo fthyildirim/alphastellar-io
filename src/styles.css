@@ -32,10 +32,46 @@ body {
   --menu-item-active-bg-color: rgb(59, 3, 32);
   --sidebar-bg-color: rgb(14, 64, 110);
 }
+
 .theme-3 {
-  --header-bg-color: rgb(255, 229, 153);
+  --header-bg-color: rgb(153, 248, 255);
+  --footer-bg-color: rgb(215, 168, 215);
+  --menu-item-bg-color: rgb(194, 163, 123);
+  --menu-item-active-bg-color: rgb(3, 59, 56);
+  --sidebar-bg-color: rgb(232, 159, 159);
+}
+.theme-4 {
+  --header-bg-color: rgb(172, 153, 255);
+  --footer-bg-color: rgb(200, 168, 215);
+  --menu-item-bg-color: rgb(183, 194, 123);
+  --menu-item-active-bg-color: rgb(3, 13, 59);
+  --sidebar-bg-color: rgb(209, 159, 232);
+}
+.theme-5 {
+  --header-bg-color: rgb(153, 185, 255);
+  --footer-bg-color: rgb(200, 168, 215);
+  --menu-item-bg-color: rgb(123, 174, 194);
+  --menu-item-active-bg-color: rgb(59, 53, 3);
+  --sidebar-bg-color: rgb(232, 159, 159);
+}
+.theme-6 {
+  --header-bg-color: rgb(156, 255, 153);
   --footer-bg-color: rgb(182, 215, 168);
-  --menu-item-bg-color: rgb(194, 123, 160);
-  --menu-item-active-bg-color: rgb(59, 3, 32);
+  --menu-item-bg-color: rgb(123, 162, 194);
+  --menu-item-active-bg-color: rgb(3, 57, 59);
   --sidebar-bg-color: rgb(159, 197, 232);
+}
+.theme-7 {
+  --header-bg-color: rgb(153, 155, 255);
+  --footer-bg-color: rgb(215, 168, 186);
+  --menu-item-bg-color: rgb(194, 189, 123);
+  --menu-item-active-bg-color: rgb(3, 59, 24);
+  --sidebar-bg-color: rgb(159, 197, 232);
+}
+.theme-8 {
+  --header-bg-color: rgb(153, 235, 255);
+  --footer-bg-color: rgb(188, 168, 215);
+  --menu-item-bg-color: rgb(123, 194, 182);
+  --menu-item-active-bg-color: rgb(3, 59, 37);
+  --sidebar-bg-color: rgb(227, 232, 159);
 }
